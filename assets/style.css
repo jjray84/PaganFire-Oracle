@@ -1,27 +1,50 @@
+:root {
+    --purple: rgb(81, 26, 130);
+}
+
+body {
+    background-color: rgb(32, 31, 33);
+}
+
 #navbar {
-    background-color: rgb(98, 19, 19);
+    background-color: black;
 }
 
 #nbtitle {
-    color: whitesmoke;
+    color: var(--purple);
 }
 
 #nbhome {
-    color: whitesmoke;
+    color: var(--purple);
 }
 
 #nbfeatures {
-    color: whitesmoke;
+    color: var(--purple);
 }
 
 #nbpricing {
-    color: whitesmoke;
+    color: var(--purple);
 }
 
 #nbAbout {
-    color: whitesmoke;
+    color: var(--purple);
 }
 
 #nbDropdown {
-    color: whitesmoke;
+    color: var(--purple);
+}
+
+#nbbtn {
+    color: var(--purple);
+}
+
+.image {
+    background-image: url(./images/Tarot-Cards.jpg);
+    height: 450px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
 }
