@@ -83,8 +83,8 @@ body {
 
 .rowRight-2 {
   background-image: url(./images/Crystal\ Ball.jpg);
-  height: 420px;
-  width: 620px;
+  height: 410px;
+  width: 650px;
   background-size: cover;
   flex-basis: 48%;
 }
@@ -101,7 +101,7 @@ body {
 
 
 
-
+/* This is for the FIRST image and text on the main page. */
 @media screen and (max-width: 768px) {
   .sideBySide {
     flex-direction: column;
@@ -129,7 +129,10 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+
+/* This Media is for the SECOND image and text for the main page. */
+/* Styles for small screens (up to 767px wide) */
+@media only screen and (max-width: 767px) {
   .sideBySide-2 {
     flex-direction: column;
   }
@@ -146,14 +149,26 @@ body {
 }
 
 /* Styles for tablet screens (768px to 1023px wide) */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* Styles for tablet screens (768px to 1023px wide) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .sideBySide-2 {
+    flex-direction: row;
+  }
+
+  .column {
+    flex-basis: 50%;
+  }
+
   .rowRight-2 {
-    width: 50%;
-    height: auto;
-    margin-right: 20px;
+    height: 410px;
+    width: 340px;
+    background-position: center;
+    background-size: cover;
   }
 
   .rowLeft-2 h2 {
+    font-size: xx-large;
     flex-basis: 50%;
   }
 }
+
