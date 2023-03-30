@@ -131,44 +131,73 @@ body {
 
 
 /* This Media is for the SECOND image and text for the main page. */
-/* Styles for small screens (up to 767px wide) */
-@media only screen and (max-width: 767px) {
+/* Styles for tablet screens (768px to 1023px wide) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .sideBySide-2 {
     flex-direction: column;
   }
 
-  .rowRight-2 {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-  .rowLeft-2 h2 {
-    flex-basis: 100%;
-  }
-}
-
-/* Styles for tablet screens (768px to 1023px wide) */
-/* Styles for tablet screens (768px to 1023px wide) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .sideBySide-2 {
-    flex-direction: row;
-  }
-
   .column {
-    flex-basis: 50%;
+    width: 100%;
+  }
+
+  .rowLeft-2 {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .rowRight-2 {
     height: 410px;
-    width: 340px;
+    width: 100%;
     background-position: center;
     background-size: cover;
+    margin-bottom: 10px;
   }
 
   .rowLeft-2 h2 {
     font-size: xx-large;
-    flex-basis: 50%;
   }
 }
+
+/* Styles for small screens (up to 767px wide) */
+@media only screen and (max-width: 767px) {
+  .sideBySide-2 {
+    flex-direction: column-reverse;
+  }
+
+  .rowRight-2 {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  .rowLeft-2 {
+    flex-basis: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .rowLeft-2 h2 {
+    font-size: 2rem; /* Adjust this value as needed */
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .rowLeft-2 p {
+    font-size: 1rem; /* Adjust this value as needed */
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
+
+
+
+
+
+
+
+
 
