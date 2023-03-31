@@ -1,0 +1,42 @@
+:root {
+    --purple: rgb(81, 26, 130);
+}
+
+body {
+    background-color: rgb(32, 31, 33);
+    font-family: 'Marck Script', cursive;
+}
+
+#navbar {
+    background-color: black;
+}
+
+#nbtitle {
+    color: var(--purple);
+    font-family: 'Cinzel', serif;
+}
+
+#nbhome {
+    color: var(--purple);
+}
+
+#nbfeatures {
+    color: var(--purple);
+}
+
+#nbpricing {
+    color: var(--purple);
+}
+
+#nbAbout {
+    color: var(--purple);
+}
+
+.image {
+    background-image: url(/assets/images/Sams-photo.jpg);
+    height: 250px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-size: auto;
+    background-position: center;
+}

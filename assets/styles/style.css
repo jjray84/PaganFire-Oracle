@@ -32,16 +32,8 @@ body {
     color: var(--purple);
 }
 
-#nbDropdown {
-    color: var(--purple);
-}
-
-#nbbtn {
-    color: var(--purple);
-}
-
 .image {
-    background-image: url(./images/Sam\'s\ photo.jpg);
+    background-image: url(/assets/images/Sams-photo.jpg);
     height: 250px;
     width: 100%;
     margin-bottom: 0.5%;
@@ -60,7 +52,7 @@ body {
 }
 
 .rowLeft {
-    background-image: url(./images/Tarot-Cards.jpg);
+    background-image: url(/assets/images/Tarot-Cards.jpg);
     height: 410px;
     width: 650px;
     background-size: cover;
@@ -82,7 +74,7 @@ body {
 }
 
 .rowRight-2 {
-  background-image: url(./images/Crystal\ Ball.jpg);
+  background-image: url(/assets/images/Crystal\ Ball.jpg);
   height: 410px;
   width: 650px;
   background-size: cover;
