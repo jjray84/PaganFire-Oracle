@@ -78,6 +78,7 @@ body {
   width: 650px;
   background-size: cover;
   flex-basis: 48%;
+  margin-bottom: 5%;
 }
 
 .rowLeft-2 h2 {

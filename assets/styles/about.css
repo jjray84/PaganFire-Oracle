@@ -39,3 +39,54 @@ body {
     margin-left: 10%;
     background-size: contain;
 }
+
+.sideBySide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+}
+
+.rowLeft {
+    background-image: url(/assets/images/Placeholder-about-me.jpg);
+    height: 600px;
+    width: 650px;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+.rowRight h2 {
+    color: white;
+    font-size: xx-large;
+}
+
+/* This is for the FIRST image and text on the main page. */
+@media screen and (max-width: 768px) {
+    .sideBySide {
+      flex-direction: column;
+    }
+    
+    .column {
+      width: 100%;
+    }
+    
+    .rowLeft {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .column {
+      width: 100%;
+    }
+    
+    .rowLeft {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+  }
