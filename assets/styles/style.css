@@ -33,12 +33,11 @@ body {
 }
 
 .image {
-    /* background-image: url(/assets/images/Sams-photo.jpg); */
-    height: 250px;
-    width: 100%;
-    margin-bottom: 0.5%;
-    background-size: auto;
-    background-position: center;
+    height: 600px;
+    width: 80%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    background-size: contain;
 }
 
 .sideBySide {
