@@ -34,9 +34,8 @@ body {
 
 .image {
     height: 600px;
-    width: 80%;
+    width: 100%;
     margin-bottom: 2%;
-    margin-left: 10%;
     background-size: contain;
 }
 
@@ -51,7 +50,6 @@ body {
 }
 
 .rowLeft {
-    background-image: url(/assets/images/Tarot-Cards.jpg);
     height: 410px;
     width: 650px;
     background-size: cover;
@@ -73,7 +71,6 @@ body {
 }
 
 .rowRight-2 {
-  background-image: url(/assets/images/Crystal\ Ball.jpg);
   height: 410px;
   width: 650px;
   background-size: cover;
