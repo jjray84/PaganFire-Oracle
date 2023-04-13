@@ -35,7 +35,7 @@ body {
 .image {
     height: 600px;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     background-size: contain;
 }
 
@@ -43,10 +43,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .column {
     width: 48%;
+    margin-bottom: 5%;
 }
 
 .rowLeft {
@@ -59,6 +61,7 @@ body {
 .rowRight h2 {
     color: white;
     font-size: xx-large;
+    margin-bottom: 5%;
 }
 
 /* This is for the FIRST image and text on the main page. */
